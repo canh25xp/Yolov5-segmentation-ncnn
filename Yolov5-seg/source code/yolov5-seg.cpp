@@ -45,12 +45,13 @@ int main(int argc, char* argv[]) {
                 << "\nnms       = " << nms
                 << "\nmaxObj    = " << maxObj
                 << "\ndynamic   = " << dynamic
-                << "\nnoseg     = " << contour
+                << "\ncontour   = " << contour
                 << "\nagnostic  = " << agnostic
                 << "\ncrop      = " << crop
                 << "\nsave      = " << save
                 << "\nsaveTxt   = " << saveTxt
                 << "\nsaveMask  = " << saveMask
+                << "\nrotate    = " << rotate
                 << "\n------------------------------------------------" <<std::endl;
 
     Yolo Yolov5;
