@@ -2,11 +2,7 @@
 
 ![cat.gif](./output/cat.gif)
 
-## Setup
-
-Setup for windows 10, using visual studio 2022. Refer to [build](./build/build.md)
-
-Or download the window x64 [release](https://github.com/canh25xp/Yolov5-segmentation-ncnn/releases/tag/v1.0)
+---
 
 ## How to run
 
@@ -31,6 +27,7 @@ Or download the window x64 [release](https://github.com/canh25xp/Yolov5-segmenta
 +---output
 |       cat.jpg
 |       cat.mp4
+|
 +---Yolov5-seg
 |       yoloncnn.exe
 ```  
@@ -59,6 +56,7 @@ Options
 ```
 
 Note :
+
 source can be :
 
 - image path
@@ -83,7 +81,7 @@ conf      = 0.25
 nms       = 0.45
 maxObj    = 100
 dynamic   = 1
-noseg     = 0
+contour   = 0
 agnostic  = 1
 crop      = 0
 save      = 1
@@ -102,14 +100,14 @@ Output saved at ..\output\cat.jpg
 
 ![cat.jpg](./output/cat.jpg)
 
-## How to convert pytorch model to ncnn model
+---
 
-Currently, there's 2 ways to convert a pytorch model to ncnn model :
+## Wiki
 
-1. pytorch >> onnx >> ncnn
-2. pytorch >> torchscript >> ncnn (via [pnnx](https://github.com/pnnx/pnnx))
+- [Setup for windows, using visual studio 2022](https://github.com/canh25xp/Yolov5-segmentation-ncnn/wiki/How-to-build)
+- [Convert pytorch to ncnn](https://github.com/canh25xp/Yolov5-segmentation-ncnn/wiki/Convert-pytorch-model-to-ncnn-model)
 
-The author himself( or maybe her ) ([nihui](https://github.com/nihui)) recommended the **second method** (refer to [this comment](https://github.com/Tencent/ncnn/issues/4488#issuecomment-1434299765))
+---
 
 ## MEME PLACE
 
